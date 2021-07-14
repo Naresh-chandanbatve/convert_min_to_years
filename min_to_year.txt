@@ -1,0 +1,35 @@
+
+
+
+        import java.util.*;
+
+      public class Convert_minutes_Years {
+
+	public static void main(String[] args) {
+		    ////  initializing  ////
+        		int years, days;
+		 Scanner sc =new Scanner(System.in);
+		
+		
+		 
+		 ////  Taking minutes as input  ////
+		  System.out.println("Enter the minutes : \n");
+		  int min=sc.nextInt();
+		  
+		  
+		  
+		 
+		 ////  converting minutes into years and days  ////
+            years= min/(365*24*60);
+             days= min/(60*24)-(365*years);
+		  
+                  
+             
+             
+        ////   printing the result  ////     
+		  System.out.println(min+" is approximately equal to "+years+" years and "+days+" days");
+		  
+		  
+	}
+
+
